@@ -1,1 +1,3 @@
-# elkjs-playground
+# ELK playground with ReactFlow
+
+WIP
