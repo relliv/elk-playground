@@ -11,6 +11,9 @@ importers:
       '@xyflow/react':
         specifier: ^12.3.6
         version: 12.3.6(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      elkjs:
+        specifier: ^0.9.3
+        version: 0.9.3
       monaco-editor:
         specifier: ^0.52.2
         version: 0.52.2
@@ -696,6 +699,9 @@ packages:
 
   electron-to-chromium@1.5.76:
     resolution: {integrity: sha512-CjVQyG7n7Sr+eBXE86HIulnL5N8xZY1sgmOPGuq/F0Rr0FJq63lg0kEtOIDfZBk44FnDLf6FUJ+dsJcuiUDdDQ==}
+
+  elkjs@0.9.3:
+    resolution: {integrity: sha512-f/ZeWvW/BCXbhGEf1Ujp29EASo/lk1FDnETgNKwJrsVvGZhUWCZyg3xLJjAsxfOmt8KjswHmI5EwCQcPMpOYhQ==}
 
   esbuild@0.24.0:
     resolution: {integrity: sha512-FuLPevChGDshgSicjisSooU0cemp/sGXR841D5LHMB7mTVOmsEHcAxaH3irL53+8YDIeVNQEySh4DaYU/iuPqQ==}
@@ -1766,6 +1772,8 @@ snapshots:
   deep-is@0.1.4: {}
 
   electron-to-chromium@1.5.76: {}
+
+  elkjs@0.9.3: {}
 
   esbuild@0.24.0:
     optionalDependencies:
